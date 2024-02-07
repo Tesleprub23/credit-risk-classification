@@ -6,11 +6,11 @@ A value of 0 in the “loan_status” column means that the loan is healthy. A v
 Process
 Create a Logistic Regression Model with the Original Data
 Split the Data into Training and Testing Sets 
-Create the labels set (y) from the “loan_status” column, and then create the features (X) DataFrame from the remaining columns. (10 points)
-Split the data into training and testing datasets by using train_test_split. (15 points)
+Create the labels set (y) from the “loan_status” column, and then create the features (X) DataFrame from the remaining columns. 
+Split the data into training and testing datasets by using train_test_split.
 Create a Logistic Regression Model 
-Fit a logistic regression model by using the training data (X_train and y_train). (10 points)
-Save the predictions on the testing data labels by using the testing feature data (X_test) and the fitted model. (5 points)
+Fit a logistic regression model by using the training data (X_train and y_train). 
+Save the predictions on the testing data labels by using the testing feature data (X_test) and the fitted model.
 
 Summary
 •	The logistic regression model using the original data does a fabulous job of predicting the values for the 0 class (healthy loans) data. 
